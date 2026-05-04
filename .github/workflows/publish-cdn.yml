@@ -1,6 +1,7 @@
 name: directory-listing
 on: [push]
-
+  workflow_dispatch:
+  
 jobs:
   pages-directory-listing:
     runs-on: ubuntu-latest
